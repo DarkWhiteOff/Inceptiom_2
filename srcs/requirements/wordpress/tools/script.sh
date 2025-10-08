@@ -33,6 +33,15 @@ db_name=nnnname
 db_user=uuuuser
 db_pwd=ppppass
 
+DOMAIN_NAME=zamgar.42.fr
+WP_TITLE=zamgar_website
+WP_ADMIN_USR=zamgar
+WP_ADMIN_PWD=1234
+WP_ADMIN_EMAIL=ziggyamgar@gmail.com
+WP_USR=zamgar_usr
+WP_EMAIL=ziggyamgar22@gmail.com
+WP_PWD=4321
+
 #line 23
 sed -i -r "s/database_name_here/$db_name/1" /var/www/html/wp-config.php
 #line 26
